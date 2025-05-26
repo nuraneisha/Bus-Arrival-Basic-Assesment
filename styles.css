@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+.container
+{
+  display:flex;
+  justify-content: flex-start;
+}
+img{
+  height:100px;
+  width:100px;
+}
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width:250px;
+  padding:5px;
+  background-color:lightblue;
+}
+
+button:hover{
+  background-color: rgb(61, 61, 156);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+.highlighted
+{
+  background-color: #d4edda; /* light green */
+  font-weight: bold;
+}
